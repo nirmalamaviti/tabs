@@ -1,0 +1,93 @@
+.main{
+    /* border: 1px solid black; */
+    text-align: center;
+}
+h1{
+    color: rgb(148, 23, 167);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 400;
+}
+.passage{
+    color: crimson;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: cursive;
+}
+.main h2{
+    color: rgb(40, 36, 43);
+    font-size: 25px;
+    font-weight: 300;
+    font-family: cursive;
+}
+.second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.picture {
+    flex: 1;
+    padding-right: 20px;
+    box-shadow: 1px 1px 2px 2px rgb(218, 88, 131);
+    padding-left: 5px;
+}
+
+.picture img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.tabs {
+    flex: 2;
+    box-shadow: 1px 1px 2px 2px rgb(218, 88, 131);
+    padding-top:50px;
+    padding-bottom: 15px;
+
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn.active {
+    background-color: #45a049;
+}
+
+.about-content .content {
+    display: none;
+    padding: 20px;
+}
+
+.about-content .content.active {
+    display: block;
+}
+
+.about-content ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.about-content ul li {
+    margin-bottom: 10px;
+    color: #333;
+}
